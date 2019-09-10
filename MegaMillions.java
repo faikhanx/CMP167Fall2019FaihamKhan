@@ -13,6 +13,10 @@ Mega Millions Program
 
 import java.util.Scanner;
 public class MegaMillions {
+	/**
+	 * 
+	 * @author F Khan
+	 */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
