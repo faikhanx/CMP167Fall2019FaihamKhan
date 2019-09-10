@@ -1,5 +1,11 @@
 import java.util.Scanner;
 public class Welcome {
+	
+	/**
+	 * 
+	 * @author F Khan
+	 */
+	
 	public static void main (String[] args) {
 		
 		String welcome = "Welcome!";
