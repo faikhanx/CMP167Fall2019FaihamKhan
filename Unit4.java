@@ -11,7 +11,6 @@ public class Unit4 {
 		// TODO Auto-generated method stub
 		int age;
 		String name;
-		String option = "can't";
 		Scanner input = new Scanner (System.in);
 		
 		System.out.println("This program will check if you are legal to drink alcohol");
