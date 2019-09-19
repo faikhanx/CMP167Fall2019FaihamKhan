@@ -1,34 +1,34 @@
-Mega Millions Program
-1. Ask the user how much they would like to play with
-2 Store the value that they input into a variable
-3. Ask the user to input 6 numbers
-4. Store the value that they input into a variable
-5. Randomly generate a 6-digit long number
-6. Compare the number that they input with the randomly generated number
-	a) If the two are equal, tell the user that they have won.
-	b) If the two are not equal, tell the user that they have lost.
-7. If the user won, multiply the first numbeer they input by 1,000,000 and let them know that is their prize.
- 
-
+/**
+ * 
+ * @author Khan
+ *
+ */
 
 import java.util.Scanner;
+import java.util.Random;
 public class MegaMillions {
-	/**
-	 * 
-	 * @author F Khan
-	 */
 
 	public static void main(String[] args) {
+
 		// TODO Auto-generated method stub
-	Scanner input = new Scanner (System.in);
-	System.out.println("Hello, this program simulates the Mega Millions.  Enter the amount you would like to play with.");
-	
-	int stake = input.nextInt();
-	
-	System.out.println("Enter a 6 digit number);
-	
-	int guess = input.nextInt();
-			   
+		
+		Random randGen = new Random();
+		
+		System.out.println(randGen.nextInt(60) + 1);
+		
+		// Declare variable to hold amount of dollar
+		// Declare variable for cost of ticket
+		
+		//Prompt the user for the amount
+		// of dollars to bet on
+		
+		//store amount into amount of dollar
+		// variable
+		
+		//Prompt the user to enter six numbers
+		// Create a variable for each value
+		
+		// Randomly generate six numbers and compare
 
 	}
 
